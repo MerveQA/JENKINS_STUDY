@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.118 s <<< FAILURE! - in TestSuite
+OpenBrowser(mpack.FirstClass)  Time elapsed: 0.093 s  <<< FAILURE!
+org.openqa.selenium.remote.NoSuchDriverException: 
+chromedriver located at /usr/bin/chromedriver, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: driver.version: ChromeDriver
+	at mpack.FirstClass.OpenBrowser(FirstClass.java:20)
+
